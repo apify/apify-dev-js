@@ -1,0 +1,45 @@
+{
+  "name": "apify-dev",
+  "version": "0.0.1",
+  "description": "Development dependencies used in all Apify projects.",
+  "main": "index.js",
+  "author": {
+    "name": "Apify",
+    "email": "support@apify.com",
+    "url": "https://www.apify.com"
+  },
+  "contributors": [
+    "Jan Curn <jan@apify.com>",
+    "Marek Trunkat <marek@apify.com>"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apifytech/apify-dev-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apifytech/apify-dev-js/issues"
+  },
+  "homepage": "https://www.apify.com",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-react": "^7.0.1",
+    "mocha": "^3.5.3",
+    "nyc": "^11.7.1",
+    "sinon": "^4.1.2",
+    "sinon-stub-promise": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^1.4.0",
+    "selenium-webdriver": "^3.6.0"
+  }
+}

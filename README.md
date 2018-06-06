@@ -1,0 +1,1 @@
+This package only contains development dependencies used across Apify projects for testing and code linting.
